@@ -22,3 +22,6 @@ use gsub() to rename all the activity names.
 Step 5: From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 set subject to factor using as.factor(), then use aggregate() to create a new data frame.
 
+Final step:
+
+save the script and name it "run_analysis.R" and then source the file in Rstudio. A text file "finalTidy" is generated.
